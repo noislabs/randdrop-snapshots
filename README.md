@@ -1,12 +1,13 @@
 # randdrop-snapshots
 
-| filename                  | Created    | sha256sum                                                        | merkle root                                                      | round | height   |
-| ------------------------- | ---------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- | ----- | -------- |
-| aura-randdrop-1.json      | 2023-05-25 | 7a3bb482ecf901ba545d1f968e7299fe6d64d1342f8141a27bd0c2e2e562e26a | d4311931a33789c481533ed82ba25b4eb969769239d01a3ced7677c4527e146c | 1     | 1002000  |
-| juno-randdrop-1.json      | 2023-05-25 | d99410948e76ac7d021c58fbf6fea1b38c2a375135bfaec689cb07494bfb477d | 73d8ae84dddb8f99f08ecf141d0fb7d65fe8af7a2e4aeb7d6714f985d945851f | 1     | 8372000  |
-| osmosis-randdrop-1.json   | 2023-11-29 | 880315a50a14d90670b9fc12f332aae939e9b84c5c6900d7df1d1e99973f4e13 | f28cf490ca8d4deda47ebc4deb633604779c9eda8a0c0b8ab51bd8b680ac3c9e | 1     | 12542000 |
-| stargaze-randdrop-1.json  | 2023-05-25 | a93626dd48441c966aae02ec20d39d418b421d1d3e13ff7add7a04e56862af7f | 35dc76c748756b196b49f4faf0cc993c0384004d3a4ba5a7c043b6ce6f4d112e | 1     | 8295000  |
-| injective-randdrop-1.json | 2023-05-25 | e4227b5769cdb212870af8b36e207f21263efba2254fad6c9c2b1a9e6a95c44c | bb5c6fcccd32cbee8693f588311fea5a8b12dfce0e924fb980e2ae2207c8d567 | 1     | 34080000 |
-| juno-randdrop-2.json      | 2023-11-10 | dee62e47d217cd874fdf49b3c0e20a1725d6a68eefb1aacee87d5588e05e2f76 | 7205ab2773859b7f3275daf1e18f2ba0a7b85f6e02059575fc2f4ae876dd0f2c | 2     | 11600000 |
-| stargaze-randdrop-2.json  | 2023-11-30 | 6991d77520711c33ccaffefe40dc67b4b401230c7b7934644e7ce8f688da5913 | 067b70c805c83b1b5cb29b2f3f047440ac4197a8889d396c204e36fcca79d661 | 2     | 11120000 |
-| aura-randdrop-2.json      | 2023-12-01 | a2d6f739138a5da450e6ab6cc469c34eabe98b51d35d28d4ae78c2bc8e7fb9a0 | 6fd3f48247a74cf43892542cb188af8a365181f76fec306948a49ed3a72a412d | 2     | 3860000  |
+| filename                  | Created    | sha256sum                                                        | merkle root                                                      | round | height   | Min staked |
+| ------------------------- | ---------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- | ----- | -------- | ---------- |
+| aura-randdrop-1.json      | 2023-05-25 | 7a3bb482ecf901ba545d1f968e7299fe6d64d1342f8141a27bd0c2e2e562e26a | d4311931a33789c481533ed82ba25b4eb969769239d01a3ced7677c4527e146c | 1     | 1002000  | 62 AURA    |
+| juno-randdrop-1.json      | 2023-05-25 | d99410948e76ac7d021c58fbf6fea1b38c2a375135bfaec689cb07494bfb477d | 73d8ae84dddb8f99f08ecf141d0fb7d65fe8af7a2e4aeb7d6714f985d945851f | 1     | 8372000  | 8 JUNO     |
+| osmosis-randdrop-1.json   | 2023-11-29 | 880315a50a14d90670b9fc12f332aae939e9b84c5c6900d7df1d1e99973f4e13 | f28cf490ca8d4deda47ebc4deb633604779c9eda8a0c0b8ab51bd8b680ac3c9e | 1     | 12542000 | 6 OSMO     |
+| stargaze-randdrop-1.json  | 2023-05-25 | a93626dd48441c966aae02ec20d39d418b421d1d3e13ff7add7a04e56862af7f | 35dc76c748756b196b49f4faf0cc993c0384004d3a4ba5a7c043b6ce6f4d112e | 1     | 8295000  | 260 STARS  |
+| injective-randdrop-1.json | 2023-05-25 | e4227b5769cdb212870af8b36e207f21263efba2254fad6c9c2b1a9e6a95c44c | bb5c6fcccd32cbee8693f588311fea5a8b12dfce0e924fb980e2ae2207c8d567 | 1     | 34080000 | 0.6 INJ    |
+| juno-randdrop-2.json      | 2023-11-10 | dee62e47d217cd874fdf49b3c0e20a1725d6a68eefb1aacee87d5588e05e2f76 | 7205ab2773859b7f3275daf1e18f2ba0a7b85f6e02059575fc2f4ae876dd0f2c | 2     | 11600000 | 8 JUNO     |
+| stargaze-randdrop-2.json  | 2023-11-30 | 6991d77520711c33ccaffefe40dc67b4b401230c7b7934644e7ce8f688da5913 | 067b70c805c83b1b5cb29b2f3f047440ac4197a8889d396c204e36fcca79d661 | 2     | 11120000 | 260 STARS  |
+| aura-randdrop-2.json      | 2023-12-01 | a2d6f739138a5da450e6ab6cc469c34eabe98b51d35d28d4ae78c2bc8e7fb9a0 | 6fd3f48247a74cf43892542cb188af8a365181f76fec306948a49ed3a72a412d | 2     | 3860000  | 62 AURA    |
+| injective-randdrop-2.json | 2024-01-10 | f1df97afbc6f3f5f941308b66abd96a6b2c7bf9db1e6dbe39db71d8035c7eea2 | 91c3f6ee31ec0f4ba751979db28418afab71405453a9c0f592d5247e4499b3c3 | 1     | 57000000 | 0.1 INJ    |
